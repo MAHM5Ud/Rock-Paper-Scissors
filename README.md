@@ -1,25 +1,25 @@
-# Rock Paper Scissors Game
+# Description
 
-A simple Rock, Paper, Scissors game where you play against the computer.
+A simple console-based game of "Stone, Paper, Scissors" in C++. 
+The player competes against the computer for a set number of rounds. 
+The game displays the winner of each round and provides the final score.
 
-## How to Play
-1. Choose between:
-   - [1]: Rock
-   - [2]: Paper
-   - [3]: Scissors
-2. The computer chooses randomly.
-3. Rules:
-   - Rock beats Scissors
-   - Scissors beats Paper
-   - Paper beats Rock
-4. Results are displayed after each round, and totals are shown at the end.
+# Features
 
-## How to Run
-1. Clone or download the repository.
-2. Compile the code using C++:
-   - Open the terminal in the folder containing the code.
-   - Use the following command to compile:
-     ```bash
-     g++ -o rock_paper_scissors main.cpp
+Player vs. Computer.
+Random Computer Choice.
+Color Feedback: Green for Player win, Red for Computer win.
+Sound Effect: A sound for Computer win.
+Game Summary: Displays final score (Player wins, Computer wins, Draws).
+Replay Option: Play again or exit.
+
+# Requirements
+
+C++ compiler (e.g., GCC, MinGW).
+Windows OS (for color and sound commands).
+
+# note
+
+This project was not only done in the best way, but was built using the concepts and techniques you learned from the basics in the first phase.
 
 
